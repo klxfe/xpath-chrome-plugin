@@ -71,3 +71,22 @@ tr:last-child td.last {
     -moz-border-radius-bottomright:5px;
     -webkit-border-bottom-right-radius:5px; /* Saf3-4 */
 }
+
+#refresh{
+    background: blue;
+    border-radius: 70px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.45em;
+    margin: 0;
+}
+
+#refresh:hover {
+    background-color: cadetblue;
+}
+
+.button_refresh{
+    display: flex;
+    justify-content: center;
+}
