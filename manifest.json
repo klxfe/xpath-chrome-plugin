@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Show all buttons",
+  "description": "Chrome plugin, which shows a list of buttons on the opened web page with its unique XPath locators.",
+  "version": "1.0",
+  "author": "Egor Kharitonenko",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon-32.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["script.js"]
+    }
+  ]
+}
