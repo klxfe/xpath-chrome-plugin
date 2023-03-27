@@ -4,6 +4,10 @@ html{
     min-width: 600px;
 }
 
+body{
+    font-family: 'JetBrains Mono', serif;
+}
+
 .header{
     display: flex;
     justify-content: center;
